@@ -42,27 +42,27 @@ files:
 
     #python 解释器
   pythonInterpreter:
-    path: D:\tool\anaconda3\python.exe
+    path: C:/Users/a3159/AppData/Local/Programs/Python/Python39/python.exe
 
     # 模型代码训练所在的位置 TODO
   pythonTrianCode:
-    path:  D:\tecachworkspace\wanganqi\transportation_predict_system\transportation_python\Traffic_analysis\traffic.py
+    path:  J:\机器学习\transportation_predict_syste_demo\transportation_python\Traffic_analysis\traffic.py
 
   #模型代码预测代码所在问题
   pythonPredictCode:
-    path:  D:\tecachworkspace\wanganqi\transportation_predict_system\transportation_python\predict_online.py
+    path:  J:\机器学习\transportation_predict_syste_demo\transportation_python\predict_online.py
 
   #最佳模型所在的路径（保证该目录必须存在文件）
   predictModel:
-    path: D:\tecachworkspace\wanganqi\transportation_predict_system\transportation_python\dnn_model_88.h5
+    path:  J:\机器学习\transportation_predict_syste_demo\transportation_python\dnn_model_88.h5
 
   # 模型评估报告所在位置
   modelAnalysis:
-    path: D:\tecachworkspace\wanganqi\transportation_predict_system\transportation_python/model_analysis.docx
+    path: J:\机器学习\transportation_predict_syste_demo\transportation_python\model_analysis.docx
 
 
     # 模型代码训练所在的位置
   pythonAnalyzeCode:
-    path: D:\tecachworkspace\wanganqi\transportation_predict_system\transportation_python\model_analysis.py
+    path:  J:\机器学习\transportation_predict_syste_demo\transportation_python\model_analysis.py
 
 

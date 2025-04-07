@@ -1,11 +1,11 @@
-from data_analysis import data_analysis
 from model import train_model
 from read_data import read_data,remove_duplicates
 from missing_scale import fill_missing_values,scale_data
+from transportation_predict_syste_demo.transportation_python.data_analysis import data_analysis
 
 #导入文件
-file_path_train = '../data/train_1000.csv'
-file_path_val = '../data/validate_1000.csv'
+file_path_train = './data/train_10000.csv'
+file_path_val = './data/validate_1000.csv'
 
 df,y = read_data(file_path_train)
 df_val,y_val = read_data(file_path_val)
