@@ -4,8 +4,8 @@ from read_data import read_data,remove_duplicates
 from missing_scale import fill_missing_values,scale_data
 
 #导入文件
-file_path_train = r'E:\code\jupyter\3xia\A10_HOBO\data\train_10000.csv'
-file_path_val = r'E:\code\jupyter\3xia\A10_HOBO\data\validate_1000.csv'
+file_path_train = '../data/train_1000.csv'
+file_path_val = '../data/validate_1000.csv'
 
 df,y = read_data(file_path_train)
 df_val,y_val = read_data(file_path_val)
